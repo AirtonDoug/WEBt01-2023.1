@@ -1,5 +1,6 @@
 import './App.css';
-import SaveData from './components/07Storage/FunctionLocalStorage';
+import Pai from './components/atividade03/questao02/Pai';
+//import SaveData from './components/07Storage/FunctionLocalStorage';
 //import HelloWorld from './components/00HelloWorld';
 //import Calculadora from './components/01Calculadora';
 //import MyProps from './components/02MyProps';
@@ -17,10 +18,15 @@ import SaveData from './components/07Storage/FunctionLocalStorage';
 //import FuncaoA from './components/06Contexto/FuncaoA';
 //import FuncaoA from './components/atividade02/questao01/FuncaoA';
 //import ComponenteAvo from './components/atividade02/questao03/ComponenteAvo';
+//import Pai from './components/08PaiFilho/Pai';
+//import FunctionEstados from './components/09Estados/FunctionEstados';
+//import VotacaoCidades from './components/atividade03/questao01/VotacaoCidades';
+
+
 
 function App() {
   return (
-    <SaveData />
+    <Pai/>
   );
 }
 
